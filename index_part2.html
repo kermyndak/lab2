@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+        <title>ICS6 Bootstrap</title>
+        <link href="styles/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles/styles.css">
+        <style>
+            html {
+                position: relative;
+                min-height: 100%;
+            }
+            body {
+                margin-bottom: 40px;
+            }
+            main {
+                margin-top: 15px;
+            }
+            footer {
+                height: 40px;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+            }
+            .my-primary {
+                background-color: #1A237E;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark my-primary">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="container">
+            <div class="row">
+                <div class="col-4">
+                <img
+                src="images/avatar.jpg"
+                alt="avatar" width="150" height="150">
+                </div>
+                <div class="col-8">
+                <p>Любой текст</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <h1>Опрос</h1>
+                    <form>
+                        <table border="2">
+                            <tr>
+                                <td>Имя:</td>
+                                <td>
+                                    <input type="text" name="fname" class="form-control"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Фамилия:</td>
+                                <td> 
+                                    <input type="text" name="lname" class="form-control"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Вам понравился сайт?</td>
+                                <td> 
+                                    <input type="radio" name="choice" value="да"/>да
+                                    <input type="radio" name="choice" value="нет"/>нет
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <input type="submit" value="Отправить" class="btn btn-primary" />
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+                <div class="col-4">
+                    <table border="1" class="table table-striped table-dark">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th colspan="3">Вторник</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>8:30-10:05</td>
+                                <td rowspan="2">Языки интернет программирования</td>
+                                <td rowspan="2">Каф.</td>
+                            </tr>
+                            <tr>
+                                <td>10:15-11:50</td>
+                            </tr>
+                            <tr>
+                                <td>12:00-13:35</td>
+                                <td>Языки интернет программирования</td>
+                                <td>501ю</td>
+                            </tr>
+                            <tr>
+                                <td>13:50-13:25</td>
+                                <td>Базы данных</td>
+                                <td>501ю</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h1>Кинематика</h1>
+                    <p><span class="text1">Кинематикой</span> называют раздел <span class="text2">механики</span>, в котором движение тел рассматривается без выяснения причин этого движения.</p>
+
+                    <p><span class="text1">Механическим движением тела</span> называют изменение <span class="text2">его положения в пространстве</span> относительно других тел с течением времени.</p>
+
+                    <p><span class="text1">Перемещением тела</span> называют направленный отрезок прямой, соединяющий начальное положение тела с его конечным положением.
+                    При <span class="text2">равномерном</span> (с постоянной скоростью) движении путь <var>L</var> может быть найден по формуле:<br/><var>L</var> = <var>v</var> * <var>t</var>,
+                    <br/>где: <var>v</var> – скорость тела, <var>t</var> – время в течении которого оно двигалось.</p>
+
+                    <p><span class="text1">Скорость</span> – векторная величина, характеризующая быстроту перемещения тела в пространстве.
+                    <br/><span class="text1">Средняя скорость пути</span> – это отношение всего пути ко всему времени движения:<br/><var>v</var><sub>ср. пути</sub> = <var>L</var><sub>полн.</sub>/<var>t</var><sub>полн.</sub> </p>
+                    <p><span class="text1 text2">Физика</span> - это <span class="text3">СКУЧНО</span> ИНТЕРЕСНО!</p>
+                </div>
+            </div>
+        </main>
+        <footer class="my-primary">
+            <div class="container">
+                <p class="footer-text">Footer</p>
+            </div>
+        </footer>
+    </body>
+</html>

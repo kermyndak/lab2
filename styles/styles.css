@@ -1,0 +1,41 @@
+.text1 {
+    color: red;
+}
+
+.text2 {
+    font-weight: bold;
+}
+
+.text3 {
+    text-decoration: line-through;
+}
+
+.table {
+    display: table;
+    border-bottom: 2px solid black;
+}
+
+.table-header {
+    display: table-caption;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-cell {
+    display: table-cell;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.table-cell:last-child {
+    border-right: 2px solid black;
+}
